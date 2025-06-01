@@ -1,0 +1,62 @@
+{
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "AI问诊",
+          "pathName": "pages/ai/ai",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/index/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "意见反馈",
+          "pathName": "pages/feedback/feedback",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "舌苔自诊",
+          "pathName": "pages/tongue/tongue",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关于我们",
+          "pathName": "pages/aboutus/aboutus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "联系我们",
+          "pathName": "pages/contactus/contactus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "舌诊报告",
+          "pathName": "pages/tonguereport/tonguereport",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "shetai"
+}

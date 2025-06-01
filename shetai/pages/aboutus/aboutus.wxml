@@ -1,0 +1,8 @@
+<view class="main">
+	<view class="utitle">
+		<view class="mtitle">"舌语医说"智慧舌苔自主诊疗系统</view>
+	</view>
+	<view class="text">
+    “舌语医说”——基于EasyDL和ERNIEBot的智慧舌苔自主诊疗系统是有江苏大学xxx开发的自主舌诊系统，结合飞桨的EasyDL训练出的舌苔分割和识别两个模型，得出舌苔特征后，交给文心一言大模型，给出大模型的诊疗中医建议。该系统有任何问题都可以与我们联系。
+	</view>
+</view>

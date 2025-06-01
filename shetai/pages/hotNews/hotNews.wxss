@@ -1,0 +1,48 @@
+.main {
+  font-size: 32rpx;
+  font-family: 'Microsoft YaHei';
+  color: #555
+}
+
+.inner {
+  width: 96%;
+  margin: 20rpx auto;
+}
+
+.topthumb {
+  width: 100%;
+  height: 390rpx;
+}
+
+.topthumb image {
+  width: 100%;
+  height: 390rpx;
+}
+
+.utitle {
+  clear: both;
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.utitle text {
+  width: 100%;
+  padding-left: 20rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+
+.liy {
+  width: 5px;
+  height: 40rpx;
+  display: inline-block;
+  background-color: #000;
+}
+
+.udetail {
+  clear: both;
+  margin-top: 20rpx;
+  text-indent: 55rpx;
+  text-align: justify;
+}

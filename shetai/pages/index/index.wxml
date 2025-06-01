@@ -1,0 +1,38 @@
+<view class="main">
+	<view class="container">
+		<view class="section section_gap swiper_box">
+			<swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}"
+				interval="{{interval}}" circular="true" duration="{{duration}}">
+				<block wx:for="{{swiperlist}}" wx:key="id">
+					<swiper-item>
+						<navigator url="/pages/hotNews/hotNews?id={{swiperlist[index].id}}" class="slide-navigator">
+							<image src="{{swiperlist[index].adthumb}}" class="slide-image" />
+						</navigator>
+					</swiper-item>
+				</block>
+			</swiper>
+		</view>
+		<view class="utitle">
+			<image src="/static/image/tip.jpg" style="height: 55px;width: 360px;"></image>
+		</view>
+		<view class="news">
+			<block wx:for="{{healthknos}}" wx:key="id">
+				<navigator url="/pages/detail/detail?id={{healthknos[index].id}}">
+					<view class="new">
+						<view class="new_detail">
+							<view class="new_title">
+								<text>{{healthknos[index].name}}</text>
+							</view>
+							<view class="new_view">
+								<text>{{healthknos[index].detail_title}}</text>
+							</view>
+						</view>
+						<view class="pic">
+							<image src="{{healthknos[index].adthumb}}" style="height: 60px; width: 60px"></image>
+						</view>
+					</view>
+				</navigator>
+			</block>
+		</view>
+	</view>
+</view>

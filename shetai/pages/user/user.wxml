@@ -1,0 +1,45 @@
+<view class="user_info_wrap">
+  <view wx:if="{{hasUserInfo}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else >
+    <button class="auth_btn" plain bindtap="login"> 登录 </button>
+  </view>
+</view>
+<view class="user_content">
+  <view class="user_main">
+    <view class="app_info_wrap">
+      <navigator url="/pages/contactus/contactus">
+        <view class="app_info_itme" style="height: 30px;">
+          <image src="/static/image/logo/1.png" class="logo_image"></image>
+          <text>联系我们</text>
+        </view>
+      </navigator>
+      <navigator url="/pages/aboutus/aboutus">
+        <view class="app_info_itme" style="height: 30px;">
+          <image src="/static/image/logo/2.png" class="logo_image"></image>
+          <text>关于我们</text>
+        </view>
+      </navigator>
+      <navigator>
+      <view class="app_info_itme test" >
+        <image src="/static/image/logo/3.png" class="logo_image"></image>
+        <button class="recommend_button" open-type="feedback" style="width: 675rpx; height: 81rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">意见反馈</button>
+        </view>
+        <view class="app_info_itme" style="height: 30px;">
+          <image src="/static/image/logo/3.png" class="logo_image"></image>
+          <text>意见反馈</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="recommend_wrap test">
+      <image src="/static/image/logo/4.png" class="logo_image"></image>
+      <text>分享应用</text>
+      <button class="recommend_button" open-type="share">分享应用</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,64 @@
+.index-question{
+    width:350px;
+    padding: .75rem 1rem;
+    font-size: .875rem;
+    line-height: 1.8;
+    border：none;
+    border-radius: .375rem;
+    box-shadow:5px 5px 10px 0px #ccc;
+    outline:none;
+    margin-right:3%;
+}
+
+.btn{
+    background-image：linear-gradient(87deg,#8748e0,#7870e3,#5e91e5,#21b0e7);
+    color: #fff;
+    border:none;
+    border-radius:5px;
+    width:120px;
+    height:45px;
+}
+
+.carddiy{
+    height: 230px;
+    width: 60%;
+    margin-top: 3%;
+    background-color: #fff;
+    border: 0.3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0.35em 0 #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    border-radius: 8px 8px 0px 0px;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(24,49,83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 3%;
+}
+
+.botm_title{
+    font-size: 24px;
+    margin: 0;
+}
+.botm_ph{
+    font-size: 15px;
+    text-indent: 2em;
+    margin-top: 14px;
+}
+
+.carddiy:hover {
+    box-shadow: 0 0.25em 0 rgb(177, 151, 252);
+    border-color: rgb(177,151,252);
+    border-width: 2.3px;
+ }

@@ -1,0 +1,56 @@
+<view>
+  <modal title="拍摄注意事项" cancel-text="关闭" hidden="{{mHidden}}" confirm-text="确定" bindconfirm="confirmModel"
+    bindcancel="closeModel">
+    <view>
+      <image class="notice_image" src="/static/image/healthknos/5.jpg" style="height: 290px;width: 300px;" ></image>
+    </view>
+  </modal>
+</view> 
+
+<view>
+  <modal title="提示" cancel-text="关闭" hidden="{{upload_status}}" confirm-text="确定" bindconfirm="failfun"
+    bindcancel="failfun">
+    <view>
+      <view class="notice_text">{{upload_dic}}</view>
+    </view>
+  </modal>
+</view> 
+
+<view class="container">
+  <view class="camera_container">
+    <view wx:if="{{authCamera}}" class="camera_wrp">
+      <camera binderror="handleCameraError" device-position="{{devicePosition}}" flash="{{flash}}">
+        <view wx:if="{{imagecount==0}}" class='cover_view'>
+          <image class="outline" src="/static/image/outline/tongue_outline.png"></image>
+          <view class='cover_text'>拍摄舌苔照片</view>
+          <view wx:if="{{uploadHidden==false}}">
+            <image class="upload_image" src="/static/image/upload.gif"></image>
+            <view class="upload_text">正在诊断</view>
+          </view>
+        </view>
+      </camera>
+    </view>
+    <view class="camera_auth" wx:if="{{!authCamera}}">
+      <image class="auth_bg" src="/static/image/profile/bg_profile.png"></image>
+      <button class="auth_btn" plain bindtap="getCameraSetting"> 用户相机授权 </button>
+    </view>
+  </view>
+  <view class="menu_container">
+    <view class="menu_content">
+      <view class="menu_view" bindtap="chooseImage">
+        <view class="album_icon iconfont icon-xiangce"></view>
+      </view>
+      <view class="menu_view" bindtap="takePhoto">
+        <view class="photo_icon iconfont icon-paizhao1-copy"></view>
+      </view>
+      <view class="menu_view" bindtap="reverseCamera">
+        <view class="xuanzhuan_icon iconfont icon-raoxiangjixuanzhuan-copy"></view>
+      </view>
+    </view>
+  </view>
+</view> 
+
+
+
+
+

@@ -1,0 +1,263 @@
+page {
+  height: calc(100%);
+  background-color: #687A94;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.head {
+  width: 90%;
+}
+
+.image_container {
+  width: 180rpx;
+  height: 180rpx;
+  padding: 5%;
+}
+
+.text_report {
+  font-size: 50rpx;
+}
+
+.text {
+  font-size: 30rpx;
+  color: #ffffff;
+}
+
+.time {
+  font-size: 25rpx;
+  color: #ff0000;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+  height: 60rpx;
+  margin: auto;
+  flex-direction: row;
+}
+
+.nav-item {
+  width: 50%;
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: -20rpx;
+}
+
+.nav-item.active {
+  color: rgb(207, 106, 106);
+  font-size: 40rpx;
+  border-bottom: 3px solid rgb(160, 110, 104);
+  width: 100rpx;
+}
+
+.tab-box {
+  background-color: #ffffff;
+  margin: 10px;
+  margin-top: 50rpx;
+  margin-bottom: 50px;
+  height: 750rpx;
+  box-shadow: 0px 0px 20px rgba(36, 84, 146, 0.623);
+}
+
+.tab-content {
+  overflow-y: scroll;
+}
+
+.report_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tongue_color {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tongue_shape {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.tongue_moss_color {
+  display: flex;
+  flex-direction: column;
+}
+
+.tongue_moss_nature {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #84d8ec;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+}
+
+.content_symptom {
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20rpx;
+}
+
+.suggest {
+  font-size: 28rpx;
+  clear: both;
+  margin-top: 20rpx;
+  text-indent: 0rpx;
+  text-align: justify;
+  overflow-y: auto; /* 允许垂直滚动 */
+  height: auto; /* 根据内容自适应高度 */
+}
+
+.content_detail {
+  font-size: 28rpx;
+  clear: both;
+  margin-top: 20rpx;
+  text-indent: 0rpx;
+  text-align: justify;
+  white-space: pre-wrap; /* 允许自动换行 */
+}
+
+
+/* .content_detail {
+  font-size: 28rpx;
+  clear: both;
+  margin-top: 20rpx;
+  text-indent: 55rpx;
+  text-align: justify;
+}
+
+.suggest {
+  font-size: 28rpx;
+  clear: both;
+  height: 300rpx;
+  margin-top: 20rpx;
+  text-indent: 55rpx;
+  text-align: justify;
+  overflow-y: auto;
+} */
+
+/* .scroll-view {
+  font-size: 20rpx;
+  color: #666666;
+  height: 300rpx;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  overflow-y: auto;
+} */
+
+
+
+
+ /* 样式表 */
+/* page {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  width: 90%;
+  margin-top: 20rpx;
+}
+
+.image_container {
+  width: 100%;
+  height: 200rpx;
+}
+
+.text_report {
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.text, .time {
+  font-size: 20rpx;
+  color: #666666;
+  margin-bottom: 10rpx;
+}
+
+.body {
+  width: 90%;
+  margin-top: 20rpx;
+}
+
+.nav {
+  display: flex;
+  height: 50rpx;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 18rpx;
+  color: #666666;
+}
+
+.nav-item.active {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.tab-box {
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+
+.content {
+  padding: 20rpx;
+}
+
+.title {
+  font-size: 24rpx;
+  color: #333333;
+  margin-bottom: 10rpx;
+}
+
+.content_detail {
+  font-size: 20rpx;
+  color: #666666;
+  overflow-y: scroll; 
+  max-height: 300rpx; 
+}
+
+.scroll-view {
+  font-size: 20rpx;
+  color: #666666;
+  height: 300rpx;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  overflow-y: auto;
+} */

@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="navbar">
+   <image src="/static/image/nurse.png"style="width:57px;height:56px;margin-right:10px;margin-bottom:10px" ></image>
+    <text class="logo">新一代交互式舌苔问诊引擎</text>
+  </view>
+  <view class="main">
+    <view class="feedback" style="position: relative; left: 0rpx; top: -25rpx">
+      <scroll-view scroll-y="true" class="scroll-view" style="position: relative; left: -25rpx; top: 0rpx ;background-image:url({{backgroundurl}});" >
+        <text>{{advice}}</text>
+      </scroll-view>
+    </view>
+    <view class="btns" style="right: 0px;left: 30px;">
+       <input placeholder="尝试输入舌色，苔色，有无裂纹，有无齿痕等类似症状" class="submitbtn" style="width: 200px;" bindinput="inputChange" />
+      <image bindtap="submitQuestion" class="resetbtn" src="/static/image/send.png" ></image>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,131 @@
+absl-py==1.4.0
+aiohttp==3.9.3
+aiosignal==1.3.1
+asgiref==3.7.2
+async-timeout==4.0.3
+attrs==23.2.0
+audiosegment==0.23.0
+bar==0.2.1
+bce-python-sdk==0.9.4
+cachetools==5.3.0
+certifi @ file:///C:/b/abs_35d7n66oz9/croot/certifi_1707229248467/work/certifi
+chainmap==1.0.3
+charset-normalizer==3.1.0
+click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+colorlog==6.8.2
+combomethod==1.0.12
+comtypes==1.1.14
+contourpy==1.0.7
+cycler==0.11.0
+Django==4.2.9
+django-qoptions==0.1.7
+djangorestframework==3.14.0
+dlib @ file:///D:/bld/dlib_1652035331399/work
+erniebot==0.5.0
+ffmpeg==1.4
+filelock==3.9.0
+Flask @ file:///C:/b/abs_efc024w7fv/croot/flask_1702980041157/work
+fonttools==4.39.2
+frozenlist==1.4.1
+ftfy @ file:///tmp/build/80754af9/ftfy_1598643610002/work
+future==0.18.3
+gitdb==4.0.10
+GitPython==3.1.31
+google-auth==2.16.2
+google-auth-oauthlib==0.4.6
+grpcio==1.51.3
+gunicorn==21.2.0
+idna==3.4
+importlib-metadata @ file:///C:/b/abs_c1egths604/croot/importlib_metadata-suite_1704813568388/work
+importlib-resources==5.12.0
+imutils==0.5.4
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///C:/b/abs_f7x5a8op2h/croot/jinja2_1706733672594/work
+joblib @ file:///C:/b/abs_1anqjntpan/croot/joblib_1685113317150/work
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+kiwisolver==1.4.4
+Markdown==3.4.1
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+matplotlib==3.7.1
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+mpmath==1.3.0
+multidict==6.0.5
+networkx==3.0
+nulltype==2.3.1
+numpy==1.24.2
+oauthlib==3.2.2
+opencv-contrib-python==4.7.0.68
+opencv-python==4.7.0.72
+options==1.4.10
+packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
+page==0.1.9
+pandas==1.5.3
+Pillow==9.4.0
+prettytable==3.6.0
+protobuf==4.22.1
+psutil==5.9.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.6
+pycryptodome==3.20.0
+pydub==0.25.1
+pydub-ffmpeg-wav==0.23.0
+pyecharts==2.0.1
+pyglet==2.0.3
+pyparsing==3.0.9
+pypiwin32==223
+PyQt5==5.15.4
+pyqt5-plugins @ file:///D:/%E6%9D%82/Python/Scripts/pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64.whl
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.2
+pyqt5-tools==5.15.4.3.2
+PySide2==5.15.2.1
+pytesseract==0.3.10
+python-dateutil==2.8.2
+python-dotenv==0.21.1
+pytoml==0.1.21
+pyttsx3==2.90
+pytz==2022.7.1
+pywin32==305.1
+PyYAML==6.0
+pyzbar==0.1.9
+qdldl==0.1.7.post0
+qt5-applications==5.15.2.2.2
+qt5-tools==5.15.2.1.2
+referencing==0.33.0
+regex @ file:///C:/b/abs_d5e2e5uqmr/croot/regex_1696515472506/work
+requests==2.28.2
+requests-oauthlib==1.3.1
+rpds-py==0.17.1
+rsa==4.9
+scipy==1.10.1
+seaborn==0.12.2
+shiboken2==5.15.2.1
+simplejson==3.18.1
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.0
+sqlparse==0.4.4
+sympy==1.11.1
+tenacity==8.2.3
+tensorboard==2.12.0
+tensorboard-data-server==0.7.0
+tensorboard-plugin-wit==1.8.1
+thop==0.1.1.post2209072238
+torch==2.0.0.dev20230202+cu116
+torchaudio==2.0.0.dev20230206+cu116
+torchvision==0.15.0.dev20230206+cu116
+tqdm==4.65.0
+typing_extensions==4.9.0
+tzdata==2023.4
+urllib3==1.26.14
+wcwidth==0.2.6
+webrtcvad==2.0.10
+Werkzeug @ file:///C:/b/abs_3901hwqcw0/croot/werkzeug_1706210134718/work
+wincertstore==0.2
+wxPython==4.2.1
+yarl==1.9.4
+zipp @ file:///C:/b/abs_b0beoc27oa/croot/zipp_1704206963359/work

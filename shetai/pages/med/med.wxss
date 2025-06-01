@@ -1,0 +1,206 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f7fc;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #eff172;
+  height: 50px;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  
+}
+
+.main {
+  width: 100%;
+  padding: 20px;
+}
+
+.intro {
+  background-color: #f8f7fc;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-title {
+  font-size: 24px;
+  font-family: '黑体';
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(206, 24, 24); 
+  border-radius: 5px; 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8748e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.advice-list {
+  width: 100%;
+}
+
+.advice-item {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.advice-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.advice-content {
+  font-size: 14px;
+}
+
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(206, 24, 24); 
+  border-radius: 5px; 
+}
+
+
+ */
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f7fc;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #cf8061c9; 
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0rpx 5rpx rgba(8, 7, 7, 0.1);
+}
+
+.logo {
+  font-size: 46rpx;
+  font-weight: bold;
+  font-family: 'STKaiti'; 
+}
+
+.main {
+  width: 100%;
+  padding: 20rpx;
+}
+
+.intro {
+  background-color: #ffffff; 
+  border: 1rpx solid #e8e8e8; 
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.intro-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  font-family: 'STKaiti'; 
+  margin-bottom: 20rpx;
+}
+
+.input {
+  width: 100%;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border: 2rpx solid #da3b1f; 
+  border-radius: 10rpx;
+  font-size: 28rpx;
+}
+
+button {
+  width: 100%;
+  padding: 20rpx;
+  background-color: #da3b1f; 
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  cursor: pointer;
+}
+
+.tip {
+  font-size: 24rpx;
+  color: #666666; 
+}
+
+.feedback {
+  margin-top: 20rpx;
+}
+
+.scroll-view {
+  height: 900rpx;
+  border: 2rpx solid #bdb3b3; 
+  border-radius: 20rpx;
+  margin-top: 80px;
+  margin-left: 10px;
+  background-size: 90% 120%;
+  background-position: 10px;
+}
+
+.btns{
+  position: fixed;
+  bottom: 500px;
+  z-index: 1;
+  width: 100%;
+  background: #FFFFFF;
+  height: 120rpx;
+}
+
+.submitbtn{
+  padding: 13px;
+  margin-top: 5px;
+  border: 2px solid rgba(143, 54, 20, 0.548);
+  border-radius: 25px;
+  margin-left: 5px;
+  font-size: 10px;
+  width:68% !important;
+  float: left;
+}
+
+.resetbtn{
+  width: 55px !important;
+  height: 52px !important;
+  margin-right: 15px;
+  margin-top: 3px;
+  float: right; 
+}
+

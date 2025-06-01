@@ -1,0 +1,32 @@
+
+.main {
+  font-size: 32rpx;
+  font-family: 'Microsoft YaHei';
+  color: #555
+}
+
+.utitle {
+  width: 100%;
+  height: 90rpx;
+  text-align: center;
+  background: #fff;
+}
+
+.mtitle {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10rpx;
+  padding: 20rpx;
+}
+
+
+.text {
+  text-indent: 40rpx;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #656565;
+}
